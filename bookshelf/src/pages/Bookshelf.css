@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.seach-box input{
+    padding: 1rem;
+    width: 20rem;
+    margin: 1rem;
+}
+
+.currently-reading,.want-to-read,.read{
+    display: flex;
+}

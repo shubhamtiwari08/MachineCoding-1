@@ -1,8 +1,18 @@
 .main-container{
     width: 14.7rem;
+    height: 30rem;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 0 5px 1px gray;
+    padding: 0.1rem;
+    object-fit: contain;
 }
 
 .main-container img{
-    width: 14.5rem;
+    width: 12.5rem;
+    align-self: center;
+    height: 20rem;
 }
+
