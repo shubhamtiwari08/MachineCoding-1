@@ -6,12 +6,12 @@ import Bookcard from '../Components/Bookcard'
 
 function Search() {
 
-    const {books} = useContext(bookContext)
+    const {booksData} = useContext(bookContext)
 
 
   return (
     <div>
-      {books.map(item=> <Bookcard data={item}/>)}
+      {booksData.map(item=> <Bookcard data={item}/>)}
     </div>
   )
 }
